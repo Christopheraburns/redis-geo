@@ -42,3 +42,5 @@ if [ "$(aws ecs list-tasks --service-name $ECS_SERVICE --region $AWS_DEFAULT_REG
     TASK_ARN="${TASK_ARN#\"}" # strip double quotes
     aws ecs stop-task --task $TASK_ARN --region $AWS_DEFAULT_REGION > /dev/null # Stop current task to force start of new task revision with new image
 fi
+
+#Imaginary Code Update
