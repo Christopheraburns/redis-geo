@@ -4,9 +4,9 @@
 export IMAGE_NAME=reinvent-redisgeo
 export IMAGE_VERSION=latest
 
-export AWS_DEFAULT_REGION=us-east-1
+export AWS_DEFAULT_REGION=us-west-2
 export AWS_ECS_CLUSTER_NAME=default
-export AWS_VIRTUAL_HOST=54.83.67.38
+export AWS_VIRTUAL_HOST=35.164.17.31
 
 # set any sensitive information in travis-ci encrypted project settings:
 # required: AWS_ACCOUNT_NUMBER, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
