@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set environment variables used in deploy.sh and AWS task-definition.json:
-export IMAGE_NAME=reinvent-redisgeo-kestrel
+export IMAGE_NAME=reinvent-redisgeo
 export IMAGE_VERSION=latest
 
 export AWS_DEFAULT_REGION=us-west-2
