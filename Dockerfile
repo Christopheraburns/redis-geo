@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.0.0
+FROM microsoft/dotnet:1.0
 COPY src /app
 WORKDIR /app
 RUN ["dotnet", "restore"]
